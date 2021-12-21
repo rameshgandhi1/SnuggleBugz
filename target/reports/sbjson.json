@@ -1,0 +1,523 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-17T11:42:35.617Z",
+        "before": [
+          {
+            "result": {
+              "duration": 68850758300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 161300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.startTime()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate the forgot password with invalid email address",
+        "description": "",
+        "id": "validate-the-forgot-password-functionality-of-snugglebugz;validate-the-forgot-password-with-invalid-email-address",
+        "after": [
+          {
+            "result": {
+              "duration": 8668802900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 625400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endTime()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4768800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch chrome browser and load url",
+            "match": {
+              "location": "SnuggleForgotPassword.user_should_launch_chrome_browser_and_load_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2600651900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Move the cursor into page header and click",
+            "match": {
+              "location": "SnuggleBugzLogin.move_the_cursor_into_page_header_and_click()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9728201800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Move the cursor into my account click",
+            "match": {
+              "location": "SnuggleBugzLogin.move_the_cursor_into_my_account_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11032971300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the forgot passwod link",
+            "match": {
+              "location": "SnuggleForgotPassword.user_should_click_the_forgot_passwod_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 530085100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should type the invalid email Address",
+            "match": {
+              "location": "SnuggleForgotPassword.user_should_type_the_invalid_email_Address(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ramesh",
+                  "gandhi",
+                  "marvin"
+                ]
+              },
+              {
+                "cells": [
+                  "123456",
+                  "088777",
+                  "777789"
+                ]
+              },
+              {
+                "cells": [
+                  "677655",
+                  "789976",
+                  "007877"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235241200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should click the send button",
+            "match": {
+              "location": "SnuggleForgotPassword.user_should_click_the_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1146840900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should navigate to forgot password page",
+            "match": {
+              "location": "SnuggleForgotPassword.user_should_navigate_to_forgot_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the forgot password functionality of SnuggleBugz",
+    "description": "",
+    "id": "validate-the-forgot-password-functionality-of-snugglebugz",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/ForgotPassword.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-17T11:44:18.648Z",
+        "before": [
+          {
+            "result": {
+              "duration": 30630648900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 211300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.startTime()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate the login page with invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-snugglebugz;validate-the-login-page-with-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1348930600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 152200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endTime()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5327400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "You should launch the browser and load SnuggleBugz Page",
+            "match": {
+              "location": "SnuggleBugzLogin.you_should_launch_the_browser_and_load_SnuggleBugz_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2441472300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Move the cursor into page header and click",
+            "match": {
+              "location": "SnuggleBugzLogin.move_the_cursor_into_page_header_and_click()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11865088200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Move the cursor into my account click",
+            "match": {
+              "location": "SnuggleBugzLogin.move_the_cursor_into_my_account_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7472431200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should type username in the SnuggleBugz",
+            "match": {
+              "location": "SnuggleBugzLogin.user_should_type_username_in_the_SnuggleBugz()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 641626600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should type password in the SnuggleBugz",
+            "match": {
+              "location": "SnuggleBugzLogin.user_should_type_password_in_the_SnuggleBugz()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 550952400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click login button",
+            "match": {
+              "location": "SnuggleBugzLogin.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325861500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I need to print the title of my page",
+            "match": {
+              "location": "SnuggleBugzLogin.i_need_to_print_the_title_of_my_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13224100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should naviagte to incorrect credential page",
+            "match": {
+              "location": "SnuggleBugzLogin.user_should_naviagte_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-17T11:45:13.987Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27864562800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 182800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.startTime()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "To validate the login page with valid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-snugglebugz;to-validate-the-login-page-with-valid-username-and-invalid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7715389900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 150200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endTime()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 966600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "You should launch the browser and load SnuggleBugz Page",
+            "match": {
+              "location": "SnuggleBugzLogin.you_should_launch_the_browser_and_load_SnuggleBugz_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2520840100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Move the cursor into page header and click",
+            "match": {
+              "location": "SnuggleBugzLogin.move_the_cursor_into_page_header_and_click()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15304827300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Move the cursor into my account click",
+            "match": {
+              "location": "SnuggleBugzLogin.move_the_cursor_into_my_account_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312760700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should type the valid username \"java\" in the snuggle page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 36
+                }
+              ],
+              "location": "SnuggleBugzLogin.user_should_type_the_valid_username_in_the_snuggle_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25221900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I need to print the current url of page",
+            "match": {
+              "location": "SnuggleBugzLogin.i_need_to_print_the_current_url_of_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384952600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should type the invalid password in the snuggle page \"java@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java@123\"",
+                  "offset": 58
+                }
+              ],
+              "location": "SnuggleBugzLogin.user_should_type_the_invalid_password_in_the_snuggle_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 380248300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should click the login button",
+            "match": {
+              "location": "SnuggleBugzLogin.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372631800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should navigate to incorrect credential page",
+            "match": {
+              "location": "SnuggleBugzLogin.user_should_navigate_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of SnuggleBugz",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-snugglebugz",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/SnuggleBugz.feature",
+    "tags": []
+  }
+]

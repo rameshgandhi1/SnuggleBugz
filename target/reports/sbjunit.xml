@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="213.237149">
+<testcase classname="Validate the forgot password functionality of SnuggleBugz" name="Validate the forgot password with invalid email address" time="102.997831">
+<system-out><![CDATA[Given User should launch chrome browser and load url........................passed
+When Move the cursor into page header and click.............................passed
+And Move the cursor into my account click...................................passed
+And User should click the forgot passwod link...............................passed
+And User should type the invalid email Address..............................passed
+And User should click the send button.......................................passed
+Then User should navigate to forgot password page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of SnuggleBugz" name="Validate the login page with invalid username and invalid password" time="55.32982">
+<system-out><![CDATA[Given You should launch the browser and load SnuggleBugz Page...............passed
+When Move the cursor into page header and click.............................passed
+And Move the cursor into my account click...................................passed
+And User should type username in the SnuggleBugz............................passed
+And user should type password in the SnuggleBugz............................passed
+And User should click login button..........................................passed
+And I need to print the title of my page....................................passed
+Then User should naviagte to incorrect credential page......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of SnuggleBugz" name="To validate the login page with valid username and invalid password" time="54.909498">
+<system-out><![CDATA[Given You should launch the browser and load SnuggleBugz Page...............passed
+When Move the cursor into page header and click.............................passed
+And Move the cursor into my account click...................................passed
+And User should type the valid username "java" in the snuggle page..........passed
+And I need to print the current url of page.................................passed
+And user should type the invalid password in the snuggle page "java@123"....passed
+And User should click the login button......................................passed
+Then User should navigate to incorrect credential page......................passed
+]]></system-out>
+</testcase>
+</testsuite>
